@@ -1,0 +1,63 @@
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 97);
+    border-radius: 10px;
+}
+
+img{
+    height: 225px;
+    width: 225px;
+}
+
+body{
+    background-color: antiquewhite;
+    background-image: url('cafefundo.jpg');
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.tela{
+    background-color: rgb(30, 78, 78);
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 0px 9px 0px;
+}
+
+h1,p{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+h2,p{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+span{
+    background-color: rgb(109, 95, 95);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+span:hover{
+    color: rgb(37, 58, 58);
+    background-color: beige;
+}
